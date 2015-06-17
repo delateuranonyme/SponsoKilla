@@ -24,7 +24,7 @@ var observeDOM = (function () {
 	eventListenerSupported = window.addEventListener;
 
 	return function (obj, callback) {
-		alert("Yé souis prêt moun Dédé !");
+		// alert("Yé souis prêt moun Dédé !");
 		console.log('Sponsokilla by Dede Lateur is ready to kick ass (and chew bubblegum) !'); /* ouais ben ça, ça marche pas trop du tout */
 		if (MutationObserver)
 		{
