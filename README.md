@@ -5,7 +5,7 @@ This thing is probably the worst piece of code you'll ever see BUT it works, yee
 
 INSTALL INSTRUCTIONS 
 1) download and install GreaseMonkey from Firefox
-2) download sponsokilla.user.js
+2) download sponsokilla.js
 3) edit sponsokilla.js, and tweak it a bit :
 
 var promoted=0; // promoted tweets : 0 off, 1 on (off means that SK won't show promoted tweets)
@@ -21,6 +21,14 @@ blacklist is an array. Specify the Twitter usernames (without the @) you don't w
 6) click the "gear" icon on the top of the screen then "Install module from file" (or something like this)
 7) browse and open sponsokilla.js
 8) open a new tab, and enjoy Twitter !
+
+When installed, if you want to make changes :
+1) go to Manage scripts
+2) right click on SponsoKilla
+3) select Modify
+4) make changes
+5) save
+6) press F5 to reload the tab where twitter is 
 
 See ya,
 @delateuranonyme
